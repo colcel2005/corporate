@@ -30,6 +30,61 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <!-- Estilos personalizados para alinear correctamente la sección de artículos -->
+      <style>
+         /* Alineación de la sección de artículos recientes */
+         .services_section .icon_1 {
+            text-align: center !important;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .services_section .icon_1 img {
+            height: 80px !important;
+            width: auto !important;
+            object-fit: contain !important;
+            display: block !important;
+            margin: 0 auto !important;
+         }
+         .services_section .selection_text {
+            text-align: center !important;
+            font-weight: 600 !important;
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+         }
+         .services_section .many_text {
+            text-align: center !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            min-height: 100px;
+         }
+         .services_section .readmore_bt {
+            text-align: center !important;
+            margin-top: 15px !important;
+            margin-bottom: 20px !important;
+         }
+         .services_section .readmore_bt a {
+            display: inline-block !important;
+            padding: 8px 20px !important;
+            font-size: 14px !important;
+            background-color: #f26522 !important;
+            color: #fff !important;
+            border-radius: 25px !important;
+            text-decoration: none !important;
+            transition: all 0.3s ease !important;
+         }
+         .services_section .readmore_bt a:hover {
+            background-color: #d35400 !important;
+            transform: translateY(-2px) !important;
+         }
+         /* Ajuste para las columnas en móviles */
+         @media (max-width: 768px) {
+            .services_section .col-md-4 {
+               margin-bottom: 30px;
+            }
+         }
+      </style>
    </head>
    <body>
       <!-- header section start -->
@@ -109,35 +164,35 @@
                   <div class="row">
                      <!-- Artículo 1: Fibra Óptica -->
                      <div class="col-md-4">
-                        <div class="icon_1" style="text-align: center;">
-                           <img src="images/icon-1.png" alt="Fibra Óptica" style="height: 80px; width: auto; object-fit: contain; margin-bottom: 15px;">
+                        <div class="icon_1">
+                           <img src="images/icon-1.png" alt="Fibra Óptica">
                         </div>
-                        <h3 class="selection_text" style="text-align: center;">Fibra Óptica en Venezuela</h3>
-                        <p class="many_text" style="text-align: center;">Conoce cómo el despliegue de redes FTTx está mejorando la conectividad y acelerando la transformación digital en el país.</p>
-                        <div class="readmore_bt" style="text-align: center;">
-                           <a href="#" style="padding: 8px 20px; font-size: 14px; display: inline-block;">Leer Artículo</a>
+                        <h3 class="selection_text">Fibra Óptica en Venezuela</h3>
+                        <p class="many_text">Conoce cómo el despliegue de redes FTTx está mejorando la conectividad y acelerando la transformación digital en el país.</p>
+                        <div class="readmore_bt">
+                           <a href="#">Leer Artículo</a>
                         </div>
                      </div>
                      <!-- Artículo 2: Ciberseguridad -->
                      <div class="col-md-4">
-                        <div class="icon_1" style="text-align: center;">
-                           <img src="images/icon-2.png" alt="Ciberseguridad" style="height: 80px; width: auto; object-fit: contain; margin-bottom: 15px;">
+                        <div class="icon_1">
+                           <img src="images/icon-2.png" alt="Ciberseguridad">
                         </div>
-                        <h3 class="selection_text" style="text-align: center;">Ciberseguridad 2026</h3>
-                        <p class="many_text" style="text-align: center;">Principales amenazas y mejores prácticas para proteger los activos digitales de tu empresa en la nueva era tecnológica.</p>
-                        <div class="readmore_bt" style="text-align: center;">
-                           <a href="#" style="padding: 8px 20px; font-size: 14px; display: inline-block;">Leer Artículo</a>
+                        <h3 class="selection_text">Ciberseguridad 2026</h3>
+                        <p class="many_text">Principales amenazas y mejores prácticas para proteger los activos digitales de tu empresa en la nueva era tecnológica.</p>
+                        <div class="readmore_bt">
+                           <a href="#">Leer Artículo</a>
                         </div>
                      </div>
                      <!-- Artículo 3: Business Intelligence -->
                      <div class="col-md-4">
-                        <div class="icon_1" style="text-align: center;">
-                           <img src="images/icon-3.png" alt="Business Intelligence" style="height: 80px; width: auto; object-fit: contain; margin-bottom: 15px;">
+                        <div class="icon_1">
+                           <img src="images/icon-3.png" alt="Business Intelligence">
                         </div>
-                        <h3 class="selection_text" style="text-align: center;">Business Intelligence</h3>
-                        <p class="many_text" style="text-align: center;">Cómo los dashboards y el análisis de datos pueden potenciar la toma de decisiones estratégicas en tu organización.</p>
-                        <div class="readmore_bt" style="text-align: center;">
-                           <a href="#" style="padding: 8px 20px; font-size: 14px; display: inline-block;">Leer Artículo</a>
+                        <h3 class="selection_text">Business Intelligence</h3>
+                        <p class="many_text">Cómo los dashboards y el análisis de datos pueden potenciar la toma de decisiones estratégicas en tu organización.</p>
+                        <div class="readmore_bt">
+                           <a href="#">Leer Artículo</a>
                         </div>
                      </div>
                   </div>
